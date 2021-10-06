@@ -1,0 +1,93 @@
+
+
+
+
+
+
+
+
+
+
+
+.tab{
+    margin-top: 95px;
+}
+#cont-proj-skill{
+    display: block;
+}
+#cont-webdev-proj{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-aligned{
+    align-items: flex-start;
+}
+
+
+
+
+/*Set Content Appearances--------------------------------------------------------------------------------*/
+/*Define variable colors---------------------------------------------------------*/
+
+
+
+
+
+
+.card-i-heading-two{
+    width: 100%;  
+}
+.card-i-heading-two{
+    font-family: var(--main-font);
+    font-size: 18px;
+    line-height: 50px; 
+    font-weight: 700;
+    text-align: center;
+    background-color: var(--primary-four);
+    color: var(--secondary);   
+}
+.card-i-heading-three{
+    font-family: var(--main-font);
+    font-size: 38px;
+    line-height: 60px; 
+    font-weight: 700;
+    color: var(--secondary-two);   
+}
+.card-i-heading-four{
+    font-family: var(--main-font);
+    font-size: 28px;
+    line-height: 40px; 
+    font-weight: 700;
+    color: var(--secondary);   
+}
+
+.card-i-image-two{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--secondary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

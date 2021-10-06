@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .row{
+            display: flex;
+            border: 2px solid red;
+            width: 800px;
+
+        }
+        .col{
+            border: 2px solid yellow;
+            height: 40px;
+            width: 33.3%;
+        }
+        .cont{
+            display: flex;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+
+   <div class="cont">
+    <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+    </div>
+   </div>
+</body>
+</html>
+
+<section id="services">
+    <h2 class="medium-heading">This is What I do</h2>
+    <div class="card-one">
+      <input type="radio" class="radio-cont" name="radio-cont" id="radio-webdev" checked>
+      <input type="radio" class="radio-cont" name="radio-cont" id="radio-proj">
+      <input type="radio" class="radio-cont" name="radio-cont" id="radio-res">
+      <a href="#portfolio" id="link-webdev" class="card-item-one btn btn-link-two">
+        <div class="overlay-one"></div>
+        <label class="card-i-image-one"><i class="fas fa-laptop-code"></i></label>
+        <h4 class="card-i-heading-one"> Software Development</h4>
+        <p class="card-i-body-one">I build cool, responsive and user-friendly web applications, desktop applications
+          and websites like this one
+        </p>
+      </a>
+      <a href="#portfolio" id="link-proj" class="card-item-one btn btn-link-two">
+        <div class="overlay-one"></div>
+        <label class="card-i-image-one"><i class="fas fa-project-diagram"></i></label>
+        <h4 class="card-i-heading-one"> Project Management</h4>
+        <p class="card-i-body-one">I take Engineering projects from imagination to reality, and I have experience
+          doing this in the Oil and Gas industry</p>
+      </a>
+      <a href="#portfolio" id="link-res" class="card-item-one btn btn-link-two">
+        <div class="overlay-one"></div>
+        <label class="card-i-image-one"><i class="fas fa-search-plus"></i></label>
+        <h4 class="card-i-heading-one"> Research and Writing</h4>
+        <p class="card-i-body-one">I have a deep research interest in developing new renewable energy solutions to
+          address global energy challenges.
+        </p>
+      </a>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2 class="medium-heading">This is what I have done</h2>
+    <div class="tab card-two">
+
+      <input type="radio" class="radio-tab" name="radio-tab" id="radio-t-webdev" checked>
+      <input type="radio" class="radio-tab" name="radio-tab" id="radio-t-proj">
+      <input type="radio" class="radio-tab" name="radio-tab" id="radio-t-res">
+
+      <label for="radio-t-webdev" class="tab-item" id="tab-webdev"><span class="desktop">Software Development</span>
+        <span class="mobile">Software</span></label>
+      <label for="radio-t-proj" class="tab-item" id="tab-proj"><span class="desktop">Project Management</span> <span
+          class="mobile">Project</span></label>
+      <label for="radio-t-res" class="tab-item" id="tab-res"><span class="desktop">Research and Writing</span> <span
+          class="mobile">Research</span></label>
+    </div>
+    <!-- change with script starts here  ------------------------------------->
+    <div class="card-container" id="cont-webdev">
+      <div class="card-three">
+        <h4 class="tiny-heading">skills</h4>
+        <div class="line"></div>
+      </div>
+      <div class="card-one">
+        <div class="card-item-two">
+          <div class="overlay-one"></div>
+          <h4 class="card-i-heading-two">Frontend Web Development</h4>
+          <div class="card-two">
+            <p class="card-i-body-one card-item-three">HTML
+            </p>
+            <p class="card-i-body-one card-item-three">CSS
+            </p>
+            <p class="card-i-body-one card-item-three">Javascript
+            </p>
+          </div>
+        </div>
+        <div class="card-item-two">
+          <div class="overlay-one"></div>
+          <h4 class="card-i-heading-two">Backend Web Development</h4>
+          <div class="card-two">
+            <p class="card-i-body-one card-item-three">PHP
+            </p>
+            <p class="card-i-body-one card-item-three">Node.Js
+            </p>
+            <p class="card-i-body-one card-item-three">GIT
+            </p>
+            <p class="card-i-body-one card-item-three">MySQL
+            </p>
+          </div>
+        </div>
+        <div class="card-item-two">
+          <div class="overlay-one"></div>
+          <h4 class="card-i-heading-two">Desktop Development</h4>
+          <div class="card-two">
+            <p class="card-i-body-one card-item-three">C#
+            </p>
+            <p class="card-i-body-one card-item-three">XAML
+            </p>
+            <p class="card-i-body-one card-item-three">WPF
+            </p>
+            <p class="card-i-body-one card-item-three">SQLite
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-three">
+        <h4 class="tiny-heading">featured projects</h4>
+        <div class="line"></div>
+      </div>
+      <div class="card-four">
+        <div class="card-item-four type-image">
+          <img class="card-image-one" src="IMAGES/Vectary texture.png" alt="Project Thumbnail">
+        </div>
+        <div class="card-item-four type-content">
+          <div class="card-i-heading-three">Alexis Refinery</div>
+          <p class="card-i-body-one">A responsive and user friendly website to enhance digital presence of Alexis
+            Refinery- a modular refinery under development in Nigeria- and enable anyone to easily reach and
+            interact
+            with the company by only a few clicks.
+          </p>
+          <div class="card-two">
+            <p class=" card-item-five">HTML
+            </p>
+            <p class=" card-item-five">CSS
+            </p>
+            <p class=" card-item-five">Javascript
+            </p>
+            <p class=" card-item-five">PHP
+            </p>
+            <p class=" card-item-five">MySQL
+            </p>
+          </div>
+          <div class="card-five">
+            <a href="#" class="btn btn-link-three"><label><i class="fas fa-external-link-alt"></i></label></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-four">
+        <div class="card-item-four type-content">
+          <div class="card-i-heading-three">KGDN Technologies</div>
+          <p class="card-i-body-one">A responsive and user friendly website to enable clients and other interested
+            persons to easily reach KGDN Technologies Limited- an Oil and Gas Servicing firm based in Nigeria,
+            visualize
+            her product and service offerings, and interact with her representatives, hassle free.
+          <div class="card-two">
+            <p class=" card-item-five">HTML
+            </p>
+            <p class=" card-item-five">CSS
+            </p>
+            <p class=" card-item-five">Javascript
+            </p>
+            <p class=" card-item-five">Node.js
+            </p>
+          </div>
+          <div class="card-five">
+            <a href="#" class="btn btn-link-three"><label><i class="fas fa-external-link-alt"></i></label></a>
+          </div>
+        </div>
+        <div class="card-item-four type-image">
+          <img class="card-image-one" src="IMAGES/kgdn.png" alt="Project Thumbnail">
+        </div>
+      </div>
+      <div class="card-four">
+        <div class="card-item-four type-image">
+          <img class="card-image-one" src="IMAGES/virtual.png" alt="Project Thumbnail">
+        </div>
+        <div class="card-item-four type-content">
+          <div class="card-i-heading-three">Virtual Laboratory</div>
+          <p class="card-i-body-one">A windows desktop based tool for virtually conducting experiments that center
+            on
+            the Shell and Tube Heat Exchanger in higher institutions, eliminating the problem of unavialabitiy of
+            the
+            equipment which hinders experimentation.
+          </p>
+          <div class="card-two">
+            <p class=" card-item-five">C#
+            </p>
+            <p class=" card-item-five">XAML
+            </p>
+            <p class=" card-item-five">SQLite
+            </p>
+            <p class=" card-item-five">WPF
+            </p>
+          </div>
+          <div class="card-five">
+            <a href="#" class="btn btn-link-three"><label><i class="fas fa-external-link-alt"></i></label></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container" id="cont-proj">
+      <div class="card-three">
+        <h4 class="tiny-heading">skills</h4>
+        <div class="line"></div>
+      </div>
+      <div class="card-one">
+        <div class="card-item-six">
+          <div class="overlay-one"></div>
+          <div class="card-two">
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Requirements
+              Gathering
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Scope
+              Alignment
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Document
+              Developemnt
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Document
+              Control
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Planning
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Scheduling
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Microsoft
+              Project
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Communication
+              Management
+            </p>
+
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Cost
+              Estimation
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Invoicing
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Procurement
+              Management
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Tracking
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Supervision
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Change
+              Management
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Performance
+              Evaluation
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Reporting
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Presentation
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-three">
+        <h4 class="tiny-heading">featured projects</h4>
+        <div class="line"></div>
+      </div>
+
+      <div class="card-four">
+        <div class="card-item-four type-image">
+          <img class="card-image-one" src="IMAGES/Frame 2.png" alt="Project Thumbnail">
+        </div>
+        <div class="card-item-four type-content left-aligned">
+          <div class="card-i-heading-three">Alexis Refinery Phase 1</div>
+          <p class="card-i-body-one">A 2500BPD Modualr Refinery Development Project
+          </p>
+          <div class="card-seven">
+            <p class="card-item-seven">Company
+            </p>
+            <p class=" card-item-five">KGDN Technologies Limited
+            </p>
+          </div>
+          <div class="card-seven">
+            <p class="card-item-seven">Client
+            </p>
+            <p class="card-item-five">Alexis Refinery Limited
+            </p>
+          </div>
+          <div class="card-seven">
+            <p class="card-item-seven">Site Location
+            </p>
+            <p class="card-item-five fixed-width">Kwale, Delta State
+            </p>
+          </div>
+          <div class="card-seven">
+            <p class="card-item-seven">Job Title
+            </p>
+            <p class=" card-item-five">Project Engineer
+            </p>
+          </div>
+          <div class="card-five">
+            <a href="#" class="btn btn-link-three"><label><i class="fas fa-external-link-alt"></i></label></a>
+          </div>
+        </div>
+      </div>
+      <div class="card-four">
+        <div class="card-item-four type-content left-aligned">
+          <div class="card-i-heading-three">Flow Station Maintenace Project</div>
+          <p class="card-i-body-one">Callout project for maintenace of flowstation assets including pumps, valves,
+            pipelines and other equipment and fittings
+          </p>
+          <div class="card-seven">
+            <p class="card-item-seven">Company
+            </p>
+            <p class=" card-item-five">KGDN Technologies Limited
+            </p>
+          </div>
+          <div class="card-seven">
+            <p class="card-item-seven">Client
+            </p>
+            <p class=" card-item-five">Nigerian Petroleum Development Company
+            </p>
+          </div>
+          <div class="card-seven">
+            <p class="card-item-seven">Site Location
+            </p>
+            <p class=" card-item-five">Egbema and Egbema West, Imo State
+            </p>
+          </div>
+          <div class="card-seven">
+            <p class="card-item-seven">Job Title
+            </p>
+            <p class=" card-item-five">Project Engineer
+            </p>
+          </div>
+          <div class="card-five">
+            <a href="#" class="btn btn-link-three"><label><i class="fas fa-external-link-alt"></i></label></a>
+          </div>
+        </div>
+        <div class="card-item-four type-image">
+          <img class="card-image-one" src="IMAGES/Frame1.png" alt="Project Thumbnail">
+        </div>
+      </div>
+    </div>
+
+    <div class="card-container" id="cont-res">
+      <div class="card-three">
+        <h4 class="tiny-heading">skills</h4>
+        <div class="line"></div>
+      </div>
+      <div class="card-one">
+        <div class="card-item-six">
+          <div class="overlay-one"></div>
+          <div class="card-two">
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Critical
+              Thinking
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Information
+              Gathering
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Reading
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Note Taking
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Data Analysis
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Data
+              Interpretation
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Writing
+            </p>
+
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Paper
+              Publishing
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> End Notes
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Word
+            </p>
+            <p class="card-i-body-one card-item-three proj-skill"><i class="fas fa-chevron-right"></i> Excel
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-three">
+        <h4 class="tiny-heading">featured Publications</h4>
+        <div class="line"></div>
+      </div>
+
+      <div class="card-four">
+        <div class="card-item-four type-image">
+          <img class="card-image-one" src="IMAGES/paper.png" alt="Project Thumbnail">
+        </div>
+        <div class="card-item-four type-content left-aligned">
+          <div class="card-i-heading-four">Virtual Laboratory: Shell and Tube Heat Exchanger as Case Study</div>
+          <p class="card-i-body-one">
+          </p>
+          <div class="card-seven">
+            <p class="card-item-seven">Author(s)
+            </p>
+            <p class=" card-item-five">Duru I.; Oboh I. O
+            </p>
+          </div>
+          <div class="card-seven">
+            <p class="card-item-seven">Date
+            </p>
+            <p class=" card-item-five">2021
+            </p>
+          </div>
+          <div class="card-seven">
+            <p class="card-item-seven">Publisher
+            </p>
+            <p class=" card-item-five">Under Review
+            </p>
+          </div>
+          <div class="card-five">
+            <a href="#" class="btn btn-link-three"><label><i class="fas fa-external-link-alt"></i></label></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- change with script ends here  ------------------------------------->
+  </section>
+
+  <section id="contact">
+    <h2 class="medium-heading centre-text">Get in Touch</h2>
+    <p class="card-i-body-one one-third-width">I build web and desktop software, manage engineering projects and
+      conduct research. I am always ready to listen, understand and help.
+    </p>
+    <div class="card-six">
+      <a href="#" class="card-item-eight btn btn-link-two">
+        <label class="card-i-image-one"><i class="fas fa-phone-alt"></i></label>
+        <h4 class="card-i-heading-one"> Call Me</h4>
+      </a>
+      <a href="#" class="card-item-eight btn btn-link-two">
+        <label class="card-i-image-one"><i class="fas fa-envelope"></i></label>
+        <h4 class="card-i-heading-one"> Mail Me</h4>
+      </a>
+    </div>
+  </section>

@@ -1,0 +1,232 @@
+@media only screen and (max-width: 768px) {
+    /* Restructure Header ------------------------------------------------------------------ */
+    .header{
+        flex-wrap: wrap;
+        border: none;
+        font-size: 30px;
+    }
+    /* Restructure Logo ------------------------------------------------------------------ */
+    .logo{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .logo svg .foreground-path{
+        fill: var(--accent);
+    }
+    /* Restructure Menu ------------------------------------------------------------------ */
+    .menu{
+        display: block;
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .menu-close-btn{
+        display: none;
+        
+    }
+    .menu-opened .menu-open-btn{
+        display: none;
+    }
+    .menu-opened .menu-close-btn{
+        display: block;
+    }
+    .menu-opened .nav{
+        display:flex;
+        height: 170px;
+        border-bottom: 2px solid var(--primary-three);
+    }
+     /* Restructure Navbar ------------------------------------------------------------------ */
+    .navbar{
+        width: 100%;
+    }
+    .navbar ul{
+        /* display: none; */
+        flex-direction: column;
+        align-items:  center;
+        width: 100%;
+        margin-right: 0;
+        font-size: 16px;
+        overflow-y: hidden;
+        height: 0;
+        transition: 0.5s;
+    }
+    /* Restructure Section and layers ------------------------------------------------------------------ */
+    section, .header, footer{
+        padding: 15px;
+    }
+    section{
+        padding-top: 50px;
+    }
+    #about{
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
+    #contact{
+        padding-top: 150px;
+    }
+
+    .layer-100, .layer-75, .layer-66, .layer-50, .layer-33,.layer-25{
+        width: 100% !important;
+    }
+     /* Restructure Other Content ----------------------------------------------------------- */
+    .line{
+        width: 90%;
+    }
+    
+     /* Restructure Link Buttons --------------------------------------------------------- */
+     .btn-link-one{
+        margin-top: 40px;
+        width: 120px;
+        padding: 15px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .btn-link-three{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .btn-link-three:hover{
+        font-size: 25px;
+    }
+    /* Restructure Paragraph ------------------------------------------------------------- */
+    p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .special-text{
+        font-size: 16px;
+        line-height: 25px;  
+    }
+     /* Restructure Heading --------------------------------------------------------------- */
+    .big-heading{
+        font-size: 42px !important;
+        line-height: 70px;
+        margin-bottom: 20px;
+    }
+    .medium-heading{
+        font-size: 25px !important;
+    }
+    .small-heading{
+        font-size: 18px !important;
+        line-height: 25px; 
+    }
+    .heading-one{
+        font-size: 20px !important;
+        line-height: 30px; 
+      }
+    .tiny-heading{
+        font-size: 16px !important;
+    }
+    .special-heading{
+        font-size: 16px !important;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    
+    /* Restructure card Containers ------------------------------------------------------ */
+    .cont-one{
+        flex-wrap: wrap;
+       }
+     /* Restructure cards --------------------------------------------------------------- */
+     .card-one{
+        width: 100% !important;
+        height: 280px;
+        margin: 5px auto;
+        border-radius: 5px;        
+    }
+    .card-two{
+        width: 100% !important;
+        margin: 1px;
+        padding: 30px;
+        
+    }
+    .card-four{
+        width: 100%;
+        margin: 1px;
+        margin-bottom: 5px;
+    }
+    /* Restructure card Items ------------------------------------------------------------- */
+    
+    .card-item-one, .card-item-two, .card-item-four{
+        font-size: 14px;
+    }
+    .card-item-three{
+        font-size: 14px;
+        width: 48%;
+        padding-right: 2px;
+    }
+    
+    /* Restructure card Image ----------------------------------------------------- */
+   .type-image{
+        order: 0;
+    }
+    .type-content{
+        order: 1;
+    }
+   
+/* Restructure Tab Items ------------------------------------------------------------- */
+    .item-selector{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: var(--main-font);
+        font-size: 16px;
+        line-height: 40px; 
+        font-weight: 400;
+        text-transform: uppercase;
+        color: var(--accent);
+    }
+    .tab-item{
+        margin-bottom: 35px;
+        font-size: 16px;
+        line-height: 20px; 
+        font-weight: 400;
+    }
+    .tab-i-inner-cont{
+        /* display: none; */
+        height: 0;
+        overflow-y: hidden;
+        transition: 0.5s;
+    }
+    #chk-tab-item:checked ~ .tab-i-inner-cont{
+        /* display: block; */
+        margin-top: 15px;
+        height: 135px;
+    }
+    #chk-tab-item:checked ~ .item-selector .tab-up{
+        display: inline;
+    }
+    #chk-tab-item:checked ~ .item-selector .tab-down{
+        display: none;
+    }
+}
+@media only screen and (max-width: 992px){
+   
+    .layer-25{
+        width: 50%;
+    }
+    .layer-75{
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 1190px){
+    .layer-25{
+        width: 30%;
+    }
+    .layer-75{
+        width: 70%;
+    }
+    .cont-one{
+        flex-wrap: wrap;
+    }
+  .card-four{
+      width: 100%;
+  }
+  .card-one, .card-two{
+      width: 49%;
+      margin-top: 15px;
+  }
+}
